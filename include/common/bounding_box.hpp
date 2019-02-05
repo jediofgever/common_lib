@@ -19,9 +19,10 @@
 #include <boost/geometry/geometries/adapted/c_array.hpp>
 BOOST_GEOMETRY_REGISTER_C_ARRAY_CS(cs::cartesian)
 
-
 #include "common/common.hpp"
 #include "common/types/object.hpp"
+
+using namespace boost::numeric::ublas;
 
 namespace autosense {
 namespace common {
